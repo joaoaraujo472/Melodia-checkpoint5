@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing Page do aplicativo de músicas Melodia">
+    <title>Melodia | Sua Música, Sua Forma</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+   
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <nav class="container menu-container">
+            <a href="#inicio" class="logo">
+                <img src="./assets/img/logo-melodia.png" alt="Logo Melodia" class="logo-imagem">
+            </a>
+
+            <button id="botao-menu" aria-label="Abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul id="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#funcionalidades">Funcionalidades</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <a href="#demonstracao" class="botao botao-menu">Ouvir Agora</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-texto">
+                    <span class="tag">
+                        <i class="fa-solid fa-wave-square"></i>
+                        Sua nova experiência musical
+                    </span>
+
+                    <h1>Melodia: <span>Sua Música, Sua Forma</span></h1>
+
+                    <p>
+                        Descubra novos artistas, crie playlists personalizadas e aproveite
+                        suas músicas favoritas em uma experiência moderna, intuitiva e feita para você.
+                    </p>
+
+                    <div class="hero-acoes">
+                        <a href="#demonstracao" class="botao botao-principal">
+                            <i class="fa-solid fa-play"></i> Ouvir Agora
+                        </a>
+                        <a href="#beneficios" class="botao botao-secundario">Conhecer o app</a>
+                    </div>
+                </div>
+
+                <div class="app-preview">
+                    <div class="preview-capa">
+                        <i class="fa-solid fa-music"></i>
+                    </div>
+                    <small>TOCANDO AGORA</small>
+                    <h2>Neon Dream</h2>
+                    <p>Melodia Sessions</p>
+                    <div class="preview-controles">
+                        <i class="fa-solid fa-backward-step"></i>
+                        <span><i class="fa-solid fa-play"></i></span>
+                        <i class="fa-solid fa-forward-step"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="beneficios" class="secao secao-alternativa">
+            <div class="container">
+                <div class="cabecalho-secao">
+                    <span>APRESENTAÇÃO</span>
+                    <h2>Por que escolher o Melodia?</h2>
+                    <p>
+                        Uma experiência para amantes de música, jovens e pessoas
+                        que buscam novas descobertas musicais.
+                    </p>
+                </div>
+
+                <div class="grid-beneficios">
+                    <article class="card">
+                        <div class="icone"><i class="fa-solid fa-headphones"></i></div>
+                        <h3>Qualidade de som superior</h3>
+                        <p>Uma experiência de áudio clara e envolvente para suas músicas favoritas.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icone"><i class="fa-solid fa-list-ul"></i></div>
+                        <h3>Playlists personalizadas</h3>
+                        <p>Crie e organize playlists para estudar, treinar ou relaxar.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icone"><i class="fa-solid fa-compass"></i></div>
+                        <h3>Descoberta de artistas</h3>
+                        <p>Encontre novos artistas e amplie seu universo musical.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="icone"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                        <h3>Interface intuitiva</h3>
+                        <p>Navegue de maneira simples, rápida e agradável.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="funcionalidades" class="secao">
+            <div class="container">
+                <div class="cabecalho-secao centralizado">
+                    <span>FUNCIONALIDADES</span>
+                    <h2>Música do seu jeito</h2>
+                    <p>As principais funcionalidades do Melodia apresentadas de forma visual e clara.</p>
+                </div>
+
+                <div class="grid-funcionalidades">
+                    <article class="card-funcionalidade destaque">
+                        <i class="fa-solid fa-heart"></i>
+                        <div>
+                            <h3>Suas favoritas</h3>
+                            <p>Salve as músicas que você mais gosta e encontre tudo rapidamente.</p>
+                        </div>
+                    </article>
+
+                    <article class="card-funcionalidade">
+                        <i class="fa-solid fa-shuffle"></i>
+                        <div>
+                            <h3>Novas descobertas</h3>
+                            <p>Explore músicas e artistas diferentes para renovar suas playlists.</p>
+                        </div>
+                    </article>
+
+                    <article class="card-funcionalidade">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <div>
+                            <h3>Interface responsiva</h3>
+                            <p>Aproveite a experiência em computador, tablet ou celular.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="demonstracao" class="secao secao-alternativa">
+            <div class="container player-container">
+                <div class="cabecalho-secao centralizado">
+                    <span>DEMONSTRAÇÃO</span>
+                    <h2>Experimente o Melodia</h2>
+                    <p>Uma demonstração funcional do player de músicas.</p>
+                </div>
+
+                <div class="player">
+                    <div class="player-capa">
+                        <i class="fa-solid fa-music"></i>
+                        <h3 id="titulo-musica">Neon Dream</h3>
+                        <p>Melodia Sessions</p>
+                    </div>
+
+                    <div class="player-conteudo">
+                        <h3>Fila de reprodução</h3>
+                        <div id="lista-musicas"></div>
+
+                        <div class="controles">
+                            <button id="anterior" aria-label="Anterior">
+                                <i class="fa-solid fa-backward-step"></i>
+                            </button>
+                            <button id="tocar" class="play" aria-label="Tocar ou pausar">
+                                <i class="fa-solid fa-play"></i>
+                            </button>
+                            <button id="proxima" aria-label="Próxima">
+                                <i class="fa-solid fa-forward-step"></i>
+                            </button>
+                        </div>
+
+                        <div class="barra-area">
+                            <span id="tempo-atual">0:00</span>
+                            <input id="progresso" type="range" min="0" max="100" value="0">
+                            <span id="duracao">0:00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <audio id="audio"></audio>
+            </div>
+        </section>
+
+        <section id="depoimentos" class="secao">
+            <div class="container">
+                <div class="cabecalho-secao centralizado">
+                    <span>DEPOIMENTOS</span>
+                    <h2>O que nossos usuários dizem</h2>
+                </div>
+
+                <div class="grid-depoimentos">
+                    <figure class="depoimento">
+                        <img class="foto" src="./assets/img/usuario-marina.png" alt="Foto de Marina Costa">
+                        <blockquote>“O Melodia deixou minhas playlists muito mais organizadas e fáceis de encontrar.”</blockquote>
+                        <figcaption><strong>Marina Costa</strong><span>Estudante</span></figcaption>
+                    </figure>
+
+                    <figure class="depoimento">
+                        <img class="foto" src="./assets/img/usuario-lucas.png" alt="Foto de Lucas Martins">
+                        <blockquote>“A interface é bonita, rápida e muito simples de usar.”</blockquote>
+                        <figcaption><strong>Lucas Martins</strong><span>Designer</span></figcaption>
+                    </figure>
+
+                    <figure class="depoimento">
+                        <img class="foto" src="./assets/img/usuario-beatriz.png" alt="Foto de Beatriz Lima">
+                        <blockquote>“Sempre encontro músicas e artistas diferentes para ouvir.”</blockquote>
+                        <figcaption><strong>Beatriz Lima</strong><span>Universitária</span></figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="secao-contato">
+            <div class="container">
+                <div class="contato-box">
+                    <div class="cabecalho-secao centralizado">
+                        <span>CONTATO</span>
+                        <h2>Fique por dentro</h2>
+                        <p>Cadastre seu e-mail para futuras campanhas e novidades do Melodia.</p>
+                    </div>
+
+                    <form id="formulario">
+                        <label for="email" class="sr-only">E-mail</label>
+                        <input id="email" type="email" placeholder="seuemail@exemplo.com" required>
+                        <button type="submit">Cadastrar</button>
+                    </form>
+
+                    <p id="mensagem"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container rodape">
+            <div>
+                <a href="#inicio" class="logo">
+                    <img src="./assets/img/logo-melodia.png" alt="Logo Melodia" class="logo-imagem">
+                </a>
+                <p>Sua música, sua forma.</p>
+            </div>
+
+            <div class="rodape-centro">
+                <p>contato@melodia.app</p>
+                <a href="#">Política de Privacidade</a>
+            </div>
+
+            <div class="redes">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
