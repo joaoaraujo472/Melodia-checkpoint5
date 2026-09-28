@@ -21,17 +21,17 @@ const musicas = [
     {
         titulo: "Neon Dream",
         artista: "Melodia Sessions",
-        arquivo: "./assets/audio/neon-dream.wav"
+        arquivo: "./src/assets/audio/neon-dream.wav"
     },
     {
         titulo: "Purple Sky",
         artista: "Melodia Sessions",
-        arquivo: "./assets/audio/purple-sky.wav"
+        arquivo: "./src/assets/audio/purple-sky.wav"
     },
     {
         titulo: "City Lights",
         artista: "Melodia Sessions",
-        arquivo: "./assets/audio/city-lights.wav"
+        arquivo: "./src/assets/audio/city-lights.wav"
     }
 ];
 
